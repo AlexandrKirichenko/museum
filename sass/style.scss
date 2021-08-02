@@ -115,9 +115,11 @@ section {
 .title-light {
     color: var(--text-color-accent);
 }
+
 .title-underline {
     margin: 75px 0;
 }
+
 .title-underline:after {
     width: 100%;
     content: "";
