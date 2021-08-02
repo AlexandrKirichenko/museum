@@ -79,6 +79,20 @@ section {
     align-self: center;
 }
 
+@media (max-width: 1440px) {
+    .logo {
+        margin-right: calc(10px + 66 * ((100vw - 320px) / 1120));
+    }
+}
+@media (any-hover: hover) {
+    .logo {
+        transition: filter 0.3s ease-out;
+    }
+    .logo:hover {
+        filter: invert(56%) sepia(53%) saturate(227%) hue-rotate(356deg) brightness(86%) contrast(87%);
+    }
+}
+
 .nav {
     display: flex;
     justify-content: flex-end;
